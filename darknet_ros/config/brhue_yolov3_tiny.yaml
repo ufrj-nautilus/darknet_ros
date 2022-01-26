@@ -1,0 +1,23 @@
+yolo_model:
+
+  config_file:
+    name: yolov3-tiny_obj.cfg
+  weight_file:
+    name: yolov3-tiny-obj_best.weights
+  threshold:
+    value: 0.3
+  detection_classes:
+    names: # According to the list of objects from Robosub 2020
+      - gman
+      - bootlegger
+      - path
+      - gun
+      - badge
+      - marker
+      - barrel
+      - bottle 
+      - telephone
+      - paper
+      - 3d_bottle
+      - cash
+      - axe
